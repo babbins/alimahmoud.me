@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './quoteSwap.css';
 export default class QuoteSwap extends Component {
   constructor() {
     super();

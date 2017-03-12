@@ -1,0 +1,26 @@
+[
+  {
+    "name": "TypeRightr",
+    "img": "typerightr.png",
+    "description": "A real-time, competitive, player vs player, typing game.  Complete with dynamic difficulty, match history, and rankings." ,
+    "link": "http://typerightr.com"
+  },
+  {
+    "name": "TypeRightr1",
+    "img": "/public/typerightr.png",
+    "description": "A real-time, competitive, player vs player, typing game.  Complete with dynamic difficulty, match history, and rankings." ,
+    "link": "http://typerightr.com"
+  },
+  {
+    "name": "TypeRightr2",
+    "img": "/public/typerightr.png",
+    "description": "A real-time, competitive, player vs player, typing game.  Complete with dynamic difficulty, match history, and rankings." ,
+    "link": "http://typerightr.com"
+  },
+  {
+    "name": "TypeRightr3",
+    "img": "/public/typerightr.png",
+    "description": "A real-time, competitive, player vs player, typing game.  Complete with dynamic difficulty, match history, and rankings." ,
+    "link": "http://typerightr.com"
+  }
+]

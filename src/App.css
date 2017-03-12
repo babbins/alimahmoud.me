@@ -5,6 +5,18 @@ html body {
   font-family: 'Inconsolata', monospace;
 }
 
+.img-container{
+  position: absolute;
+
+  width: 100%;
+  height: auto;
+}
+#my-pic{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 svg {
   fill: #464646;
   height: 40px;
@@ -118,4 +130,21 @@ svg:hover {
     80%  {color:violet;     }
     90%  {color:magenta;    }
     100% {color:indigo;     }
+}
+
+@media only screen and (max-width: 500px) {
+  #fullstack {
+    font-style: normal;
+    -webkit-animation:rainbow 0.4s linear infinite;
+    -moz-animation:rainbow 0.4s linear infinite;
+    -ms-animation:rainbow 0.4s linear infinite;
+    -o-animation:rainbow 0.4s linear infinite;
+    animation:rainbow 0.4s linear infinite;
+  }
+  #email{
+    visibility: visible;
+  }
+  svg {
+    fill: #ffebcd;
+  }
 }
