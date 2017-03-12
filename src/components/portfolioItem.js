@@ -6,7 +6,7 @@ export default class PortfolioItem extends Component {
     return (
       <div className="col">
         <a href={data.link}>
-          <h3>{data.name}</h3>;
+          <h3>{data.name}</h3>
           <img alt="portfolio-img" src={data.img}></img>
         </a>
         <p>{data.description}</p>

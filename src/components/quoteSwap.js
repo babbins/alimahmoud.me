@@ -7,7 +7,6 @@ export default class QuoteSwap extends Component {
       quotes: [
         '"HAHAHAHAHAH HIIIII!"',
         '"Toast Is Like dead bread for your head"',
-        '"What can you do when you live in a shoe and you ain\'t got no soul?"',
         '"How can we be real if our eyes aren\'t real?"',
         '"PORKCHOP SANDWICHES!"',
         '"Band Name: Blank Space Babies"',

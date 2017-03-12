@@ -1,32 +1,28 @@
 html body {
-  overflow: hidden;
-  background-color: #232323;
-  color: #ffebcd;
+  overflow-x: hidden;
+  background-color: #3C3C3B;
+  color: #EBEBD3;
   font-family: 'Inconsolata', monospace;
 }
 
-.img-container{
-  position: absolute;
-
+.navbar {
   width: 100%;
-  height: auto;
-}
-#my-pic{
-  display: block;
-  max-width: 100%;
-  height: auto;
+  position: fixed;
+  top:0;
+  left: 0;
 }
 
 svg {
-  fill: #464646;
-  height: 40px;
-  width: 40px
+  line-height: 15px;
+  fill: #84828F;
+  height: 45px;
+  width: 45px
 }
 svg:hover {
-  fill: #ffebcd;
+  fill: #EBEBD3;
 }
-.errthang {
-  position: fixed;
+.personalCard {
+  position: relative;
   top: 10px;
   left: 15px;
 }
@@ -132,7 +128,11 @@ svg:hover {
     100% {color:indigo;     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    background-color: #3C3C3B;
+    border-bottom: 1px #0F0F0F solid
+  }
   #fullstack {
     font-style: normal;
     -webkit-animation:rainbow 0.4s linear infinite;
@@ -145,6 +145,6 @@ svg:hover {
     visibility: visible;
   }
   svg {
-    fill: #ffebcd;
+    fill: #84828F;
   }
 }
