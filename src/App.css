@@ -2,7 +2,7 @@ html body {
   overflow-x: hidden;
   background-color: #3C3C3B;
   color: #EBEBD3;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Lato', sans-serif;
 }
 
 .navbar {
@@ -28,7 +28,13 @@ svg:hover {
 }
 
 #name {
+  font-family: 'Questrial', sans-serif;
   font-size: 40px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 30px;
 }
 
 #social {
