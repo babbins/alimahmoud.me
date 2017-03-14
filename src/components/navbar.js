@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 
-import QuoteSwap from './components/quoteSwap';
-import './App.css';
-
-class App extends Component {
+export default class Navbar extends Component {
   render() {
-    return (
+    return(
       <div>
         <div className="navbar">
           <div className="personalCard">
@@ -29,8 +26,6 @@ class App extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
-
-export default App;
