@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import QuoteSwap from './components/quoteSwap';
+import Footer from './components/footer';
 import './App.css';
 
 class App extends Component {
@@ -28,6 +29,7 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

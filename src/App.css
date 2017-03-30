@@ -1,156 +1,28 @@
-html body {
+html, body {
   overflow-x: hidden;
-  background-color: #3C3C3B;
-  color: #EBEBD3;
+  background-color: #2D3047;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #E6EED6;
   font-family: 'Lato', sans-serif;
 }
 
-.navbar {
-  width: 100%;
-  position: fixed;
-  top:0;
-  left: 0;
+#root {
+  height: 100%;
 }
-
-svg {
-  line-height: 15px;
-  fill: #84828F;
-  height: 45px;
-  width: 45px
+.cutout {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  margin-left: 40px;
+  margin-top: -15.5px;
+  width: 150px;
 }
-svg:hover {
-  fill: #EBEBD3;
+.container {
+  height: 100%;
 }
-.personalCard {
-  position: relative;
-  top: 10px;
-  left: 15px;
-}
-
-#name {
-  font-family: 'Questrial', sans-serif;
-  font-size: 40px;
-}
-
 h1, h2, h3, h4, h5 {
   font-family: 'Questrial', sans-serif;
   font-size: 30px;
-}
-
-#social {
-  position: relative;
-  margin-top: 10px;
-}
-
-#social > a {
-  margin: 5px;
-}
-#email {
-  visibility: hidden;
-  position: absolute;
-  top: 20%;
-}
-#email-svg:hover ~ #email {
-  visibility: visible;
-}
-
-#title{
-  font-size:25px;
-}
-#fullstack {
-  font-style: normal;
-}
-#title:hover > #fullstack, #name:hover + #title > #fullstack{
-  -webkit-animation:rainbow 0.4s linear infinite;
-  -moz-animation:rainbow 0.4s linear infinite;
-  -ms-animation:rainbow 0.4s linear infinite;
-  -o-animation:rainbow 0.4s linear infinite;
-  animation:rainbow 0.4s linear infinite;
-}
-
-@-webkit-keyframes rainbow {
-    0%   {color:red;        }
-    10%  {color:orange;     }
-    20%  {color:gold;       }
-    30%  {color:yellow;     }
-    40%  {color:yellowgreen;}
-    50%  {color:green;      }
-    60%  {color:cyan;       }
-    70%  {color:blue;       }
-    80%  {color:violet;     }
-    90%  {color:magenta;    }
-    100% {color:indigo;     }
-}
-@-moz-keyframes rainbow {
-    0%   {color:red;        }
-    10%  {color:orange;     }
-    20%  {color:gold;       }
-    30%  {color:yellow;     }
-    40%  {color:yellowgreen;}
-    50%  {color:green;      }
-    60%  {color:cyan;       }
-    70%  {color:blue;       }
-    80%  {color:violet;     }
-    90%  {color:magenta;    }
-    100% {color:indigo;     }
-}
-@-ms-keyframes rainbow {
-    0%   {color:red;        }
-    10%  {color:orange;     }
-    20%  {color:gold;       }
-    30%  {color:yellow;     }
-    40%  {color:yellowgreen;}
-    50%  {color:green;      }
-    60%  {color:cyan;       }
-    70%  {color:blue;       }
-    80%  {color:violet;     }
-    90%  {color:magenta;    }
-    100% {color:indigo;     }
-}
-@-o-keyframes rainbow {
-    0%   {color:red;        }
-    10%  {color:orange;     }
-    20%  {color:gold;       }
-    30%  {color:yellow;     }
-    40%  {color:yellowgreen;}
-    50%  {color:green;      }
-    60%  {color:cyan;       }
-    70%  {color:blue;       }
-    80%  {color:violet;     }
-    90%  {color:magenta;    }
-    100% {color:indigo;     }
-}
-@keyframes rainbow {
-    0%   {color:red;        }
-    10%  {color:orange;     }
-    20%  {color:gold;       }
-    30%  {color:yellow;     }
-    40%  {color:yellowgreen;}
-    50%  {color:green;      }
-    60%  {color:cyan;       }
-    70%  {color:blue;       }
-    80%  {color:violet;     }
-    90%  {color:magenta;    }
-    100% {color:indigo;     }
-}
-
-@media only screen and (max-width: 1000px) {
-  .navbar {
-    background-color: #3C3C3B;
-    border-bottom: 1px #0F0F0F solid
-  }
-  #fullstack {
-    font-style: normal;
-    -webkit-animation:rainbow 0.4s linear infinite;
-    -moz-animation:rainbow 0.4s linear infinite;
-    -ms-animation:rainbow 0.4s linear infinite;
-    -o-animation:rainbow 0.4s linear infinite;
-    animation:rainbow 0.4s linear infinite;
-  }
-  #email{
-    visibility: visible;
-  }
-  svg {
-    fill: #84828F;
-  }
 }
