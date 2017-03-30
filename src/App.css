@@ -5,7 +5,7 @@ html, body {
   padding: 0;
   height: 100%;
   color: #E6EED6;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Work Sans';
 }
 
 #root {
@@ -23,6 +23,7 @@ html, body {
   height: 100%;
 }
 h1, h2, h3, h4, h5 {
-  font-family: 'Questrial', sans-serif;
+  /*font-family: 'Questrial', sans-serif;*/
+  font-family: 'Work Sans';
   font-size: 30px;
 }

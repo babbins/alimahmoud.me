@@ -4,7 +4,7 @@ import './info.css';
 export default class Info extends Component {
   render() {
     return (
-      <div className="personalCard animated fadeIn">
+      <div className="personalCard animated zoomIn">
         <span id="name">Ali Mahmoud</span>
         <div id="title">
           <i id="fullstack">Fullstack</i> Software Engineer

@@ -28,7 +28,7 @@ svg:hover {
 }
 
 #name {
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 40px;
 }
 
@@ -133,14 +133,6 @@ svg:hover {
   .info {
     background-color: #3C3C3B;
     border-bottom: 1px #0F0F0F solid
-  }
-  #fullstack {
-    font-style: normal;
-    -webkit-animation:rainbow 0.4s linear infinite;
-    -moz-animation:rainbow 0.4s linear infinite;
-    -ms-animation:rainbow 0.4s linear infinite;
-    -o-animation:rainbow 0.4s linear infinite;
-    animation:rainbow 0.4s linear infinite;
   }
   #email{
     visibility: visible;
