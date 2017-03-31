@@ -7,7 +7,7 @@ export default class Info extends Component {
       <div className="personalCard animated zoomIn">
         <span id="name">Ali Mahmoud</span>
         <div id="title">
-          <i id="fullstack">Fullstack</i> Software Engineer
+          Software Engineer
         </div>
         {/* <QuoteSwap /> */}
         <div id="social">
