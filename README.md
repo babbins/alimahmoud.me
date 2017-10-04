@@ -1,5 +1,7 @@
 # My Personal Site
-Work In Progress, just a dummy site for now.
+https://alimahmoud.me
+Just a landing page for now. Work In Progress. 
+
 
 # Setup
 1.`$ npm install`
