@@ -2,5 +2,5 @@
 Work In Progress, just a dummy site for now.
 
 # Setup
-`$ npm install`\n
-`$ npm start`
+1.`$ npm install`
+2. `$ npm start`
