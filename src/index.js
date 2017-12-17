@@ -19,7 +19,6 @@ ReactDOM.render(
         {/* <Route path='me' component={Me} />
         <Route path='resume' component={resume} /> */}
       {/* <Footer /> */}
-      <img className='cutout animated bounceInUp' src='me.png' alt=''/>
       {/* <embed src="resume.pdf" width="800px" height="400px" /> */}
     </div>
   </Router>,

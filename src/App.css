@@ -13,10 +13,8 @@ html, body {
 }
 .cutout {
   position: absolute;
-  top: 28%;
-  left: 50%;
-  margin-left: 40px;
-  margin-top: -15.5px;
+  top: 65%;
+  left: 65%;
   width: 150px;
 }
 .container {

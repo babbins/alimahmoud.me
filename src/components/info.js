@@ -4,7 +4,7 @@ import './info.css';
 export default class Info extends Component {
   render() {
     return (
-      <div className="personalCard animated zoomIn">
+      <div className="personalCard animated fadeIn">
         <span id="name">Ali Mahmoud</span>
         <div id="title">
           Software Engineer
@@ -22,6 +22,7 @@ export default class Info extends Component {
           </a>
           {/* <span id="email">thealimahmoud@gmail.com</span> */}
         </div>
+        <img className='cutout' src='me.png' alt=''/>
       </div>
     )
   }
