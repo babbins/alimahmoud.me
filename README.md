@@ -1,5 +1,5 @@
 # My Personal Site
-https://alimahmoud.me
+(alimahmoud.me)[http://alimahmoud.me]
 Just a landing page for now. Work In Progress. 
 ## Installation
 1.`> npm install`
