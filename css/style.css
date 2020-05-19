@@ -1,0 +1,8 @@
+#ali-img {
+  display: block;
+  width: 200px;
+  height: 250px;
+  position: fixed;
+  top: calc(50% - 125px);
+  left: calc(50% - 100px);
+}
