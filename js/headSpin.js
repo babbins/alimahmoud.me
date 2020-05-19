@@ -1,7 +1,8 @@
 const imgEl = document.querySelector("#ali-img");
 
 function rotateImg(e) {
-  let mouseX, mouseY;
+  let mouseX, mouseY;'
+
   if (e.targetTouches && e.targetTouches[0]) {
     e.preventDefault();
     e = e.targetTouches[0];
@@ -22,4 +23,6 @@ function rotateImg(e) {
   imgEl.style.transform = "rotate(" + degrees + "deg)";
 }
 
-document.addEventListener("mousemove", rotateImg);
+window.addEventListener("mousemove", rotateImg);
+window.addEventListener("touchmove", rotateImg);
+window.addEventListener("touchstart", rotateImg);
