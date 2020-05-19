@@ -1,7 +1,7 @@
 const imgEl = document.querySelector("#ali-img");
 
 function rotateImg(e) {
-  let mouseX, mouseY;'
+  let mouseX, mouseY;
 
   if (e.targetTouches && e.targetTouches[0]) {
     e.preventDefault();
