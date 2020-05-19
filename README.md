@@ -1,9 +1,17 @@
 # [alimahmoud.me](https://alimahmoud.me)
 
-A personal site built with [11ty](11ty.dev).
+A personal site built with [11ty](https://11ty.dev) and hosted by [netlify](https://netlify.com).
 
 ## Commands
 
-`yarn develop` start a hot-reloading webserver.
+```
+yarn develop
+```
 
-`yarn build` build static site to `_site/`.
+Starts a hot-reloading webserver.
+
+```
+yarn build
+```
+
+Builds static site to `_site/`.
