@@ -3,4 +3,5 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("img/*.png");
   eleventyConfig.addPassthroughCopy("js/*.js");
   eleventyConfig.addPassthroughCopy("css/*.css");
+  eleventyConfig.addPassthroughCopy("*.ico");
 };
