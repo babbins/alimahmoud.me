@@ -1,6 +1,21 @@
+body {
+  font-family: system-ui;
+  color: white;
+  background-color: black;
+}
+
+section + section {
+  margin-top: 10px;
+}
+
+a {
+  color: hotpink;
+}
+
 #ali-img {
   display: block;
   width: 200px;
   height: 250px;
-  margin-top: 48px;
+  margin-left: 50px;
+  margin-top: 50px;
 }
