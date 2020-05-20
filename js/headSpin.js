@@ -4,7 +4,6 @@ function rotateImg(e) {
   let mouseX, mouseY;
 
   if (e.targetTouches && e.targetTouches[0]) {
-    e.preventDefault();
     e = e.targetTouches[0];
     mouseX = e.pageX;
     mouseY = e.pageY;
