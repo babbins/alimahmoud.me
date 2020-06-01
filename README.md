@@ -1,6 +1,6 @@
 # [alimahmoud.me](https://alimahmoud.me)
 
-A personal site built with [11ty](https://11ty.dev) and hosted by [netlify](https://netlify.com).
+A personal site built with [11ty](https://11ty.dev) and hosted on [netlify](https://netlify.com).
 
 ## Commands
 
